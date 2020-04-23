@@ -1,0 +1,146 @@
+/*************************************************************************************************************/
+body{
+    text-align: center;
+    background-color: rgba(236, 248, 247, 0.288);
+    /*check if system has the first font family if not then second and so on...*/
+}
+
+/*************************************************************************************************************/
+.description{
+    font-family: 'Muli', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+
+}
+
+/*************************************************************************************************************/
+h1{
+    /*margin allows to center the text or element despite the width mostly used for block elements*/
+    margin: 100px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    color: #66BFBF;
+    line-height: 2rem;
+}
+
+/*************************************************************************************************************/
+.top-cloud{
+    position: relative;
+    top: 2rem;
+    left: 20rem;
+
+}
+
+/*************************************************************************************************************/
+.bottom-cloud{
+    position: absolute;
+    right: 1000px;
+}
+
+/*try to use the web saved fonts that most of the operating systems can render perfectly*/
+/*************************************************************************************************************/
+.profile-img{
+    width: 320px;
+    height: 320px;
+}
+
+/*************************************************************************************************************/
+h2,h3{
+    font-family: 'Muli', sans-serif;
+}
+
+/*************************************************************************************************************/
+a{
+    font-family: 'Muli', sans-serif;
+}
+
+h2{
+    color: #66BFBF;
+}
+
+h3,a{
+    color: #11999E;
+}
+
+.pro{
+    font-weight: normal;
+}
+/*rem is used for sizing the elements irrespective of the parent element*/
+/*this is the most reliable and most preffered type of choice*/
+/* 1rem = 16px */
+
+p{
+    font-family: 'Muli', sans-serif;
+    color: #40514e;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+}
+
+.computer-img{
+    float: left;
+    height: 5rem;
+    width: 5rem;
+    padding-right: 30px;
+}
+
+.chilli-img{
+    float: right;
+    height: 5rem;
+    width: 5rem;
+}
+
+/*
+.chilli-desc{
+    clear: right;
+}
+*/
+
+hr{
+    border-radius: 1%;
+    border-style: dashed;
+    border-bottom: none;
+    width: 4%;
+    color: rgb(120, 224, 224);
+    margin: 100px auto 100px auto;
+}
+
+.BUTTON_BFI {
+    border-radius: 5px;
+    height: 1px;
+    line-height: 1px;
+    color: #FFFFFF;
+    font-family: "Muli",sans-serif;
+    width: 100px;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #11999E;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ .bottom-container{
+     background-color: #66BFBF;
+ }
+
+ .bottom-container {
+     color: #66BFBF;
+ }
+
+ .footer-link{
+     color: #11999E;
+     padding: 1rem;
+ }
+
+ .copyright{
+     font-size: 10px;
+     color: #eaf6f6;
+     padding: 2rem;
+ }
